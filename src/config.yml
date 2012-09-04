@@ -1,0 +1,12 @@
+armor: IRON
+sword: STONE_SWORD
+start:
+  world: world
+  player1:
+    x: -512
+    y: 65.5
+    z: -154
+  player2:
+    x: -496
+    y: 65.5
+    z: -154
