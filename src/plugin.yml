@@ -1,0 +1,31 @@
+name: Duelsies
+main: org.kitteh.duelsies.Duelsies
+authors: [mbaxter]
+version: 1.0
+commands:
+  duel:
+    description: Duel control
+    usage: /duel
+    permission: duelsies.control
+    permission-message: Cant let you do that STAR FOX
+  next:
+    description: Get next
+    usage: /next
+    permission: duelsies.control
+    permission-message: Cant let you do that STAR FOX
+  join:
+    usage: /join
+    description: join
+  setspawn:
+    usage: /setspawn
+    description: setspawn
+    permission: duelsies.control
+    permission-message: Cant let you do that STAR FOX
+  round1over:
+    usage: /round1over
+    description: setspawn
+    permission: duelsies.control
+    permission-message: Cant let you do that STAR FOX
+permissions:
+  duelsies.control:
+    default: op
